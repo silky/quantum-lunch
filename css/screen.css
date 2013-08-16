@@ -1,0 +1,205 @@
+body {
+  font: 1em Artial, helvetica, arial, clean, sans-serif;
+}
+
+a, a:hover {
+  text-decoration: none;
+  color: #e01b4c
+}
+
+p {
+  text-align: left;
+  padding: 8px 15px;
+  line-height: 19px;
+}
+
+#disqus { background: #DEE6CF; padding: 10px; }
+#dsq-content { width: 575px; }
+#date { text-align: center; color: #333; font-size: 80%;}
+#post img { padding: 10px; border: 2px solid #aaa; background: #eee; }
+#feedburner {
+  position: fixed;
+  bottom: 0;
+  left: 0;
+  margin: 0;
+}
+
+
+/*****************************************************************************/
+/*
+/* Site
+/*
+/*****************************************************************************/
+
+.title {
+  margin: 20px 0;
+}
+
+.title h1 {
+    display:inline;
+    font-weight: bold;
+    margin-bottom: 20px;
+    font-size: 3.5em;
+    letter-spacing: -2px;
+    font-family: "Arial", monospace;
+}
+.title h1 a { letter-spacing: -5px; }
+
+.info div {
+	text-align: right;
+}
+
+.info .extra {
+    color: #aaa;
+    margin-top: 5px;
+    font-size: .8em;
+}
+
+.content {
+	background: #eaeaea;
+}
+
+.links a, .links a:hover {
+    font-size: .9em;
+    padding: 3px;
+}
+
+.links h3 { text-align: center; }
+
+.links a:hover {
+    text-decoration: underline;
+}
+
+h2 {
+	padding: 10px;
+	font-size: 2.5em;
+	font-weight: normal;
+	text-align: left;
+	border-bottom: 2px solid #333;
+	margin: 10px 15px;
+}
+
+h3 {
+    font-family: "Arial"; 
+    padding: 10px;
+    font-size: 1.5em;
+    font-weight: bold;
+}
+
+#post h3 { margin-left: 5px; }
+
+  
+
+.footer {
+    border-top: solid 1px #eaeaea;
+    margin-top: 1em;
+    overflow: hidden;
+    clear: both;
+    text-align: center;
+}
+
+.footer a {
+    font-size: .8em;
+}
+
+.footer a:hover {
+	text-decoration: underline;
+}
+
+
+table {
+    width: 100%
+}
+table th {
+    border-top: solid 1px black;
+}
+table td, table th {
+    padding: 2px;
+}
+table td {
+    border-top: solid 1px gray;
+}
+
+/*****************************************************************************/
+/*
+/* Posts
+/*
+/*****************************************************************************/
+
+#more { 
+  margin: 10px 0; 
+  padding: 3px; 
+  display:block; 
+  font-size: 13px; 
+  font-weight: bold; }
+
+  /* standard */
+  
+
+  blockquote{
+    font: 14px/22px normal helvetica, sans-serif;
+    margin: 10px 50px;
+    padding-left: 10px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    border-left: 5px solid #ccc;
+    background-color: #eef;
+  } 
+  blockquote p { margin: 0; padding: 0; }
+  pre {
+    border: 1px solid #ddd;
+    background-color: #eef;
+    padding: 0 .4em;
+    text-align: left; 
+    font-size: 90%;
+    margin: 0 15px;
+    overflow: hidden;
+  }
+  
+  code {
+    border: 1px solid #ddd;
+    background-color: #eef;
+    font-size: 95%;
+    padding: 0 .2em;
+  }
+  
+    #post pre code {
+      border: none;
+    }
+    
+  /* terminal */
+  
+  #post pre.terminal {
+    border: 1px solid black;
+    background-color: #333;
+    color: white;
+  }
+  
+  #post pre.terminal code {
+    background-color: #333;
+  }
+
+#post ul, #post ol {
+	list-style-type: disc;
+	text-align: left;
+	margin-left: 40px;
+}
+
+#post li { margin-bottom: 3px; }
+
+
+#related {
+  margin-top: 2em;
+}
+
+  #related h2 {
+    margin-bottom: 1em;
+  }
+
+.survey {
+  font-size: 90%;
+  text-align: center;
+  padding: 5px;
+  background: #AED180;
+  margin-bottom: 20px;
+}
