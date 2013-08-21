@@ -142,6 +142,9 @@ def things (listings):
         #     author  = clean(authors.split(' and ')[0])
         #     bibtex = biblambda(listing)
             
+        # import pdb
+        # pdb.set_trace()
+
         content = """---
 published: true
 layout: post
@@ -149,7 +152,7 @@ papers:
 - %s
 category: lunch
 ---
-""" % "- ".join([ ("<a href='%s'>%s, %s</a>\r\n" % (l["url"],clean(l["title"]),biblambda(listings[0]))) for l in listings ])
+""" % "- ".join([ ("<a href='%s'>%s, %s</a>\r\n" % (l["url"],clean(l["title"]),biblambda(l))) for l in listings ])
         
         with open("_posts/%s" % filename, "w") as f:
             f.write(content)
