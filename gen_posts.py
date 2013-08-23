@@ -170,8 +170,10 @@ if __name__ == "__main__": # {{{
             '/home/noon/research/bibtex/physics.bib',
         ]
 
+    lines = []
     for bibfile in bibfiles:
         f = codecs.open(bibfile, "r", "utf-8")
-        lines = f.readlines()
-        listings = parse_listings(lines)
-        things(listings)
+        lines += f.readlines()
+
+    listings = parse_listings(lines)
+    things(listings)
